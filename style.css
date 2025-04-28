@@ -1,0 +1,44 @@
+/* ===== Theme Variables ===== */
+:root {
+    /* Light Theme (Soft Yellow) */
+    --primary: #d4a017;                     /* Gold */
+    --secondary: #e9c46a;                   /* Soft Yellow */
+    --dark: #fffdf5;                        /* Light Cream */
+    --light: #3a3a3a;                       /* Dark Grey for text/icons */
+    --text: #4a4a4a;                        /* Main Text */
+    --text-secondary: #6c757d;              /* Secondary Text */
+    --bg-gradient: linear-gradient(135deg, #fffdf5 0%, #fff8e1 100%);
+    --card-bg: rgba(255, 253, 245, 0.95);   /* Card Background */
+    --card-border: rgba(233, 196, 106, 0.3);/* Card Border */
+    --star-color: #3a3a3a;                  /* Icon/Star Color */
+    --moon-display: none;                   /* Hide Moon Icon */
+    --sun-display: block;                   /* Show Sun Icon */
+    --star-glow: 0 0 10px rgba(233, 196, 106, 0.4); /* Star Glow Effect */
+    --transition-time: 0.6s;                /* Transition Duration */
+    --transition-easing: cubic-bezier(0.22, 1, 0.36, 1); /* Transition Easing */
+}
+
+[data-theme="dark"] {
+    /* Dark Theme (Blue Gradient) */
+    --primary: #3498db;                     /* Blue */
+    --secondary: #5dade2;                   /* Light Blue */
+    --dark: #0d1b2a;                        /* Dark Blue */
+    --light: #e0e1dd;                       /* Light Grey for text/icons */
+    --text: #e0e1dd;                        /* Main Text */
+    --text-secondary: #a8b2c0;              /* Secondary Text */
+    --bg-gradient: linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%);
+    --card-bg: rgba(26, 54, 93, 0.6);       /* Card Background */
+    --card-border: rgba(41, 128, 185, 0.25);/* Card Border */
+    --star-color: white;                    /* Icon/Star Color */
+    --moon-display: block;                  /* Show Moon Icon */
+    --sun-display: none;                    /* Hide Sun Icon */
+    --star-glow: 0 0 10px rgba(52, 152, 219, 0.6); /* Star Glow Effect */
+}
+
+/* ===== Base Styles ===== */
+/* [All your existing CSS rules go here] */
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+    /* [Your responsive styles go here] */
+}
