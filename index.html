@@ -14,31 +14,33 @@
 
        /* Dark Mode (Dark Teal & Vibrant Green) */
         :root {
-            --primary: #3a7bd5;
-            --secondary: #00d2ff;
-            --bg-gradient: linear-gradient(135deg, #0f3443 0%, #34e89e 100%);
-            --card-bg: rgba(15, 32, 39, 0.7);
-            --card-border: rgba(58, 123, 213, 0.2);
-            --text: #f0f8ff;
-            --text-secondary: #b0c4de;
-            --star-color: #ffffff;
-            --moon-display: block;
-            --sun-display: none;
-        }
+    /* Dark Mode: Black Theme */
+    --primary: #222222; /* Dark gray for accents */
+    --secondary: #444444; /* Slightly lighter for secondary elements */
+    --bg-gradient: linear-gradient(135deg, #000000 0%, #222222 100%);
+    --card-bg: rgba(0, 0, 0, 0.85);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --text: #f0f0f0;
+    --text-secondary: #b0b0b0;
+    --star-color: #ffffff;
+    --moon-display: block;
+    --sun-display: none;
+}
 
-       /* Light Mode (Yellow Gradient) */
-        [data-theme="light"] {
-            --primary: #ffb347;
-            --secondary: #ffcc33;
-           --bg-gradient: linear-gradient(135deg, #fffde4 0%, #f9f7d9 50%, #f5f3ce 100%);
-            --card-bg: rgba(255, 253, 228, 0.8);
-            --card-border: rgba(255, 179, 71, 0.2);
-            --text: #333333;
-            --text-secondary: #666666;
-            --star-color: #333333;
-            --moon-display: none;
-            --sun-display: block;
-        }
+/* Light Mode: Light Grey Theme */
+[data-theme="light"] {
+    --primary: #cccccc; /* Light grey for accents */
+    --secondary: #e0e0e0; /* Even lighter for secondary elements */
+    --bg-gradient: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+    --card-bg: rgba(255, 255, 255, 0.95);
+    --card-border: rgba(200, 200, 200, 0.2);
+    --text: #222222;
+    --text-secondary: #444444;
+    --star-color: #222222;
+    --moon-display: none;
+    --sun-display: block;
+}
+
 
         /* Base Styles */
         * {
